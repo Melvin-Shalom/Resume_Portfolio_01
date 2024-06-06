@@ -1,4 +1,5 @@
-var colors = [ '#FF0800', '#03C03C', '#BF00FF'];
+var colors = [ '#FF0800', '#03C03C', '#BF00FF', '#0070FF', '232e5a'];
+// var colors = ['#232e5a'];
 
 function randomColor()
 {
