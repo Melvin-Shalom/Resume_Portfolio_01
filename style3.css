@@ -1,0 +1,104 @@
+
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+  
+    header {
+      padding: 15px;
+      flex-direction: column;
+    }
+  
+    #pp {
+      height: 100px;
+      width: 100px;
+    }
+  
+    #hc {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    #name {
+      font-size: 20px;
+    }
+  
+    #subtitle {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 20px;
+      margin: 15px;
+    }
+  
+    #about,
+    #skills,
+    #pros,
+    #exp {
+      width: calc(100% - 40px);
+      padding: 20px;
+    }
+  
+    #contact {
+      padding: 30px 20px;
+    }
+  
+    .icon-large {
+      font-size: 36px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    #pp {
+      height: 80px;
+      width: 80px;
+    }
+  
+    #hc {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    #name {
+      font-size: 20px;
+    }
+  
+    #subtitle {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    #about,
+    #skills,
+    #pros,
+    #exp {
+      width: calc(100% - 20px);
+      padding: 15px;
+    }
+  
+    #contact {
+      padding: 20px;
+    }
+  
+    .icon-large {
+      font-size: 24px;
+    }
+  
+    a {
+      margin-right: 10px;
+    }
+  }
+  

@@ -1,21 +1,16 @@
-var colors = [ '#FF0800', '#03C03C', '#BF00FF', '#0070FF', '232e5a'];
-// var colors = ['#232e5a'];
+var colors = ['#FF0800', '#03C03C', '#BF00FF', '#0070FF', '#232e5a'];
 
-function randomColor()
-{
+function randomColor() {
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
-document.addEventListener("DOMContentLoaded", function()
-{
+document.addEventListener("DOMContentLoaded", function () {
     const scrollLinks = document.querySelectorAll('a[href^="#"]');
     scrollLinks.forEach(link => {
-        link.addEventListener('click', function(e)
-        {
+        link.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
-            document.querySelector(targetId).scrollIntoView(
-            {
+            document.querySelector(targetId).scrollIntoView({
                 behavior: 'smooth'
             });
         });
@@ -23,6 +18,22 @@ document.addEventListener("DOMContentLoaded", function()
 
     const header = document.querySelector('header');
     header.style.backgroundColor = randomColor();
+});
+
+let modeButton = document.getElementById('mode');
+let body = document.querySelector('body');
+let mode = "light";
+
+modeButton.addEventListener("click", () => {
+    if (mode === "light") {
+        mode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    } else {
+        mode = "light";
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
 });
 
 

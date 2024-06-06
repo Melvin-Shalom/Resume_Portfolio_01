@@ -1,0 +1,52 @@
+.light {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.light h2 {
+  border-bottom: 2px solid #252827;
+}
+
+.light header {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.light .container {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.light #contact {
+  background-color: #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.dark {
+  color: #ffffff;
+}
+
+.dark h2 {
+  border-bottom: 2px solid #ffffff;
+}
+
+.dark header {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.dark .container {
+  background-color: #404040;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.dark #contact {
+  background-color: #252827;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+body.dark #mode {
+  filter: invert(1);
+}
+
+body.dark #clip {
+  filter: invert(1);
+}
