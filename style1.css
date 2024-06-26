@@ -5,7 +5,26 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right, #3D52A0, #7091E6, #8697C4, #ADBBDA, #EDE8F5);
+}
+
+.header-gradient-232E5A {
+  background-image: linear-gradient(to right, #3D52A0, #3868E4, #5875c5, #8199ce, #7883e6);
+}
+
+.header-gradient-FF0800 {
+  background-image: linear-gradient(to right, #990400, #CC0600, #FF0800, #FF4D3D, #FF7A6A);
+}
+
+.header-gradient-03C03C {
+  background-image: linear-gradient(to right, #027227, #029A32, #03C03C, #40D061, #70E08E);
+}
+
+.header-gradient-BF00FF {
+  background-image: linear-gradient(to right, #720099, #9900CC, #BF00FF, #D440FF, #E070FF);
+}
+
+.header-gradient-0070FF {
+  background-image: linear-gradient(to right, #004499, #005ACC, #0070FF, #3390FF, #66B0FF);
 }
 
 @font-face {
