@@ -1,4 +1,4 @@
-var colors = ['#FF0800', '#03C03C', '#BF00FF', '#0070FF', '#232e5a'];
+var colors = ['#FF0800', '#03C03C', '#BF00FF', '#0070FF', '#232E5A'];
 
 function randomColor() {
     return colors[Math.floor(Math.random() * colors.length)];
@@ -35,6 +35,14 @@ modeButton.addEventListener("click", () => {
         body.classList.remove("dark");
     }
 });
+
+
+document.getElementById('mode').addEventListener('click', function() {
+    this.classList.toggle('clicked');
+  });
+  
+
+
 
 
 

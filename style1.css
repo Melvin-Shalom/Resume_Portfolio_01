@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right, #ff4f18, #e64729, #77216f);
+  background-image: linear-gradient(to right, #3D52A0, #7091E6, #8697C4, #ADBBDA, #EDE8F5);
 }
 
 @font-face {
@@ -45,9 +45,8 @@ header {
   width: 20px;
   background-image: url("pin.png");
   background-size: cover;
-  transform: rotate(90deg);
   filter: invert(0);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; 
 }
 
 #pp {
@@ -110,7 +109,11 @@ header {
   background-size: cover;
   cursor: pointer;
   filter: invert(0);
-  transition: transform 0.3s ease;
+  transition: transform 2s ease 0.2s;
+}
+
+#mode.clicked {
+  transform: rotate(900deg);
 }
 
 h2 {
