@@ -36,11 +36,11 @@ body {
   font-family: myfont2;
   src: url("Now-Regular.otf");
 }
-
+/* 
 @font-face {
   font-family: myfont3;
   src: url("Hack-Regular.ttf");
-}
+} */
 
 button {
   background-color: transparent;
