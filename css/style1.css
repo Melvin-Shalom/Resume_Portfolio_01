@@ -36,11 +36,14 @@ body {
   font-family: myfont2;
   src: url("assets/fonts/Now-Regular.otf");
 }
-/* 
-@font-face {
-  font-family: myfont3;
-  src: url("assets/fonts/Hack-Regular.ttf");
-} */
+
+.myfont3 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
 button {
   background-color: transparent;
@@ -105,11 +108,13 @@ header {
 #skills,
 #pros,
 #exp {
-  width: calc(100% - 40px);
-  font-family: myfont3;
-  padding: 10px 0;
-  margin: 0 auto;
+    width: calc(100% - 40px);
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    padding: 10px 0;
+    margin: 0 auto;
 }
+
 
 #contact {
   text-align: center;
@@ -124,7 +129,7 @@ header {
   left: 20px;
   height: 50px;
   width: 50px;
-  background-image: url("circle.svg");
+  background-image: url("../assets/images/circle.svg");
   background-size: cover;
   cursor: pointer;
   filter: invert(0);
